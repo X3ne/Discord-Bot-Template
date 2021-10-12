@@ -89,4 +89,5 @@ client.on('messageCreate', async (msg) => {
 });
 
 // Token
+client.login(process.env.TOKEN);
 client.on('error', console.error);
