@@ -89,5 +89,4 @@ client.on('messageCreate', async (msg) => {
 });
 
 // Token
-client.login('ODk3NTE0MTQ5MDgzNDg0MjEx.YWWxMA.347tPOF5lafGLJUDVCue8qL7bpo');
 client.on('error', console.error);
