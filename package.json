@@ -18,5 +18,5 @@
     "lint": "eslint --fix **/*.js"
   },
   "author": "X3ne",
-  "license": "ISC"
+  "license": "GPL-3.0+"
 }
