@@ -1,7 +1,7 @@
 {
   "name": "discordbot-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A discord.js v13 bot template",
   "main": "index.js",
   "dependencies": {
     "common-tags": "^1.8.0",
@@ -17,6 +17,6 @@
     "start": "node index.js",
     "lint": "eslint --fix **/*.js"
   },
-  "author": "",
+  "author": "X3ne",
   "license": "ISC"
 }
