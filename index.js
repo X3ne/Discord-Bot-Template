@@ -59,13 +59,6 @@ Array.from({ length: foldernum }, (x, num) => {
 });
 
 client.on('messageCreate', async (msg) => {
-  const message = msg.content.toLowerCase();
-  if (message.endsWith('quoi')) {
-    msg.channel.send('feur');
-  }
-});
-
-client.on('messageCreate', async (msg) => {
   // Dm
   if (msg.author.bot) return;
   if (msg.channel.type === 'dm') return;
