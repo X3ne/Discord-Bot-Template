@@ -34,7 +34,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.categories = fs.readdirSync('./commands/');
 
-const folders = ['Utility'];
+const folders = fs.readdirSync('./commands/');
 const foldernum = folders.length;
 
 Array.from({ length: foldernum }, (x, num) => {
