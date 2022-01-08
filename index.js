@@ -23,7 +23,7 @@ client.on('ready', async () => {
   function richpresence() {
     client.user.setActivity('🚧 En développement', { type: 'WATCHING' });
     setTimeout(richpresence, 1000);
-    if (maintenance === 'false') client.user.setActivity(`Beta ${process.env.PREFIX}prefix}help`, { type: 'WATCHING' });
+    if (maintenance === 'false') client.user.setActivity(`Beta ${process.env.PREFIX}help`, { type: 'WATCHING' });
     if (maintenance === 'true') client.user.setActivity('⚠️ Bot en maintenance !', { type: 'WATCHING' });
   }
   richpresence();
